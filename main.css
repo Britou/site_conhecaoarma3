@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: Teko, sans-serif;
+    font-weight: normal;
+}
+
+body, input, textarea {
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    padding: 16px 0;
+    background-color: rgb(24, 24, 24);
+    color: #f5f6fa;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #f5f6fa;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+    color: rgb(24, 24, 24);
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section  p {
+    margin-bottom: 8px;;
+}
+
+.game-picture {
+    width: 720px;
+    height: 300px;
+    border-radius: 4%;
+    border-style: solid;
+    border-color: rgb(24, 24, 24);
+    border-width: 5px;
+}
+
+.description {
+    padding: 5px;
+}
+
+.community-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.community-picture {
+    float: right;
+    width: 720px;
+    height: 333px;
+    border-radius: 4%;
+    border-style: solid;
+    border-color: rgb(24, 24, 24);
+    border-width: 5px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#support .container {
+    display: block;
+}
+
+.support-methods {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: rgb(24, 24, 24);
+    color: #f5f6fa;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(48, 48, 48);
+}  
+
+input:focus, textarea:focus {
+    outline-color: rgb(24, 24, 24);
+}
+
+footer {
+    background-color: rgb(24, 24, 24);
+    color: #f5f6fa;
+    padding: 16px 0;
+}
