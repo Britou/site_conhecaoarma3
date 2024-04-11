@@ -52,7 +52,7 @@ section .container {
 }
 
 section {
-    padding: 24px 0;
+    padding: 42px 0;
     color: rgb(24, 24, 24);
 }
 
@@ -108,13 +108,24 @@ section  p {
 }
 
 #support .container {
-    display: block;
+    display: flex;
 }
 
 .support-methods {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+}
+
+.support-methods > div {
+    flex: 1;
+    margin-right: 95px;
+}
+
+iframe {
+    border-radius: 4%;
+    border-style: solid;
+    border-color: rgb(24, 24, 24);
+    border-width: 5px;
 }
 
 form input,
